@@ -1,0 +1,22 @@
+C:\Users\hudan\OneDrive\Masaüstü\enoca .net challenge\Enoca_Challenge\Core\Enoca_Challenge.Domain\bin\Debug\net8.0\Enoca_Challenge.Domain.deps.json
+C:\Users\hudan\OneDrive\Masaüstü\enoca .net challenge\Enoca_Challenge\Core\Enoca_Challenge.Domain\bin\Debug\net8.0\Enoca_Challenge.Domain.dll
+C:\Users\hudan\OneDrive\Masaüstü\enoca .net challenge\Enoca_Challenge\Core\Enoca_Challenge.Domain\bin\Debug\net8.0\Enoca_Challenge.Domain.pdb
+C:\Users\hudan\OneDrive\Masaüstü\enoca .net challenge\Enoca_Challenge\Core\Enoca_Challenge.Domain\obj\Debug\net8.0\Enoca_Challenge.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hudan\OneDrive\Masaüstü\enoca .net challenge\Enoca_Challenge\Core\Enoca_Challenge.Domain\obj\Debug\net8.0\Enoca_Challenge.Domain.AssemblyInfoInputs.cache
+C:\Users\hudan\OneDrive\Masaüstü\enoca .net challenge\Enoca_Challenge\Core\Enoca_Challenge.Domain\obj\Debug\net8.0\Enoca_Challenge.Domain.AssemblyInfo.cs
+C:\Users\hudan\OneDrive\Masaüstü\enoca .net challenge\Enoca_Challenge\Core\Enoca_Challenge.Domain\obj\Debug\net8.0\Enoca_Challenge.Domain.csproj.CoreCompileInputs.cache
+C:\Users\hudan\OneDrive\Masaüstü\enoca .net challenge\Enoca_Challenge\Core\Enoca_Challenge.Domain\obj\Debug\net8.0\Enoca_Challenge.Domain.dll
+C:\Users\hudan\OneDrive\Masaüstü\enoca .net challenge\Enoca_Challenge\Core\Enoca_Challenge.Domain\obj\Debug\net8.0\refint\Enoca_Challenge.Domain.dll
+C:\Users\hudan\OneDrive\Masaüstü\enoca .net challenge\Enoca_Challenge\Core\Enoca_Challenge.Domain\obj\Debug\net8.0\Enoca_Challenge.Domain.pdb
+C:\Users\hudan\OneDrive\Masaüstü\enoca .net challenge\Enoca_Challenge\Core\Enoca_Challenge.Domain\obj\Debug\net8.0\ref\Enoca_Challenge.Domain.dll
+C:\Users\hudan\OneDrive\Masaüstü\enoca .net challenge-backup\enoca .net challenge\Enoca_Challenge\Core\Enoca_Challenge.Domain\bin\Debug\net8.0\Enoca_Challenge.Domain.deps.json
+C:\Users\hudan\OneDrive\Masaüstü\enoca .net challenge-backup\enoca .net challenge\Enoca_Challenge\Core\Enoca_Challenge.Domain\bin\Debug\net8.0\Enoca_Challenge.Domain.dll
+C:\Users\hudan\OneDrive\Masaüstü\enoca .net challenge-backup\enoca .net challenge\Enoca_Challenge\Core\Enoca_Challenge.Domain\bin\Debug\net8.0\Enoca_Challenge.Domain.pdb
+C:\Users\hudan\OneDrive\Masaüstü\enoca .net challenge-backup\enoca .net challenge\Enoca_Challenge\Core\Enoca_Challenge.Domain\obj\Debug\net8.0\Enoca_Challenge.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hudan\OneDrive\Masaüstü\enoca .net challenge-backup\enoca .net challenge\Enoca_Challenge\Core\Enoca_Challenge.Domain\obj\Debug\net8.0\Enoca_Challenge.Domain.AssemblyInfoInputs.cache
+C:\Users\hudan\OneDrive\Masaüstü\enoca .net challenge-backup\enoca .net challenge\Enoca_Challenge\Core\Enoca_Challenge.Domain\obj\Debug\net8.0\Enoca_Challenge.Domain.AssemblyInfo.cs
+C:\Users\hudan\OneDrive\Masaüstü\enoca .net challenge-backup\enoca .net challenge\Enoca_Challenge\Core\Enoca_Challenge.Domain\obj\Debug\net8.0\Enoca_Challenge.Domain.csproj.CoreCompileInputs.cache
+C:\Users\hudan\OneDrive\Masaüstü\enoca .net challenge-backup\enoca .net challenge\Enoca_Challenge\Core\Enoca_Challenge.Domain\obj\Debug\net8.0\Enoca_Challenge.Domain.dll
+C:\Users\hudan\OneDrive\Masaüstü\enoca .net challenge-backup\enoca .net challenge\Enoca_Challenge\Core\Enoca_Challenge.Domain\obj\Debug\net8.0\refint\Enoca_Challenge.Domain.dll
+C:\Users\hudan\OneDrive\Masaüstü\enoca .net challenge-backup\enoca .net challenge\Enoca_Challenge\Core\Enoca_Challenge.Domain\obj\Debug\net8.0\Enoca_Challenge.Domain.pdb
+C:\Users\hudan\OneDrive\Masaüstü\enoca .net challenge-backup\enoca .net challenge\Enoca_Challenge\Core\Enoca_Challenge.Domain\obj\Debug\net8.0\ref\Enoca_Challenge.Domain.dll

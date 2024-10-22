@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "2tcEDXaDLS+TFzJezOtaXhIKgWCrZat0uKk0eLWvQlA=",
+  "Source": "Enoca_Challenge.WebApi",
+  "BasePath": "_content/Enoca_Challenge.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

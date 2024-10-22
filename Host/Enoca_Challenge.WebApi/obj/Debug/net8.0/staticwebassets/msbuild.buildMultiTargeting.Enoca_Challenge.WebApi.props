@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Enoca_Challenge.WebApi.props" />
+</Project>

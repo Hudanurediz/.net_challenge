@@ -1,0 +1,330 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\hudan\\OneDrive\\Masaüstü\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Host\\Enoca_Challenge.WebApi\\Enoca_Challenge.WebApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\hudan\\OneDrive\\Masaüstü\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hudan\\OneDrive\\Masaüstü\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj",
+        "projectName": "Enoca_Challenge.Application",
+        "projectPath": "C:\\Users\\hudan\\OneDrive\\Masaüstü\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj",
+        "packagesPath": "C:\\Users\\hudan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hudan\\OneDrive\\Masaüstü\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hudan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\hudan\\OneDrive\\Masaüstü\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Domain\\Enoca_Challenge.Domain.csproj": {
+                "projectPath": "C:\\Users\\hudan\\OneDrive\\Masaüstü\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Domain\\Enoca_Challenge.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.427\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hudan\\OneDrive\\Masaüstü\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Domain\\Enoca_Challenge.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hudan\\OneDrive\\Masaüstü\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Domain\\Enoca_Challenge.Domain.csproj",
+        "projectName": "Enoca_Challenge.Domain",
+        "projectPath": "C:\\Users\\hudan\\OneDrive\\Masaüstü\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Domain\\Enoca_Challenge.Domain.csproj",
+        "packagesPath": "C:\\Users\\hudan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hudan\\OneDrive\\Masaüstü\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hudan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.427\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hudan\\OneDrive\\Masaüstü\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Host\\Enoca_Challenge.WebApi\\Enoca_Challenge.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hudan\\OneDrive\\Masaüstü\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Host\\Enoca_Challenge.WebApi\\Enoca_Challenge.WebApi.csproj",
+        "projectName": "Enoca_Challenge.WebApi",
+        "projectPath": "C:\\Users\\hudan\\OneDrive\\Masaüstü\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Host\\Enoca_Challenge.WebApi\\Enoca_Challenge.WebApi.csproj",
+        "packagesPath": "C:\\Users\\hudan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hudan\\OneDrive\\Masaüstü\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Host\\Enoca_Challenge.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hudan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\hudan\\OneDrive\\Masaüstü\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj": {
+                "projectPath": "C:\\Users\\hudan\\OneDrive\\Masaüstü\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj"
+              },
+              "C:\\Users\\hudan\\OneDrive\\Masaüstü\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Infrastructure\\Enoca_Challenge.Persistance\\Enoca_Challenge.Persistance.csproj": {
+                "projectPath": "C:\\Users\\hudan\\OneDrive\\Masaüstü\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Infrastructure\\Enoca_Challenge.Persistance\\Enoca_Challenge.Persistance.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Hangfire.SqlServer": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.427\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hudan\\OneDrive\\Masaüstü\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Infrastructure\\Enoca_Challenge.Persistance\\Enoca_Challenge.Persistance.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hudan\\OneDrive\\Masaüstü\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Infrastructure\\Enoca_Challenge.Persistance\\Enoca_Challenge.Persistance.csproj",
+        "projectName": "Enoca_Challenge.Persistance",
+        "projectPath": "C:\\Users\\hudan\\OneDrive\\Masaüstü\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Infrastructure\\Enoca_Challenge.Persistance\\Enoca_Challenge.Persistance.csproj",
+        "packagesPath": "C:\\Users\\hudan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hudan\\OneDrive\\Masaüstü\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Infrastructure\\Enoca_Challenge.Persistance\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hudan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\hudan\\OneDrive\\Masaüstü\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj": {
+                "projectPath": "C:\\Users\\hudan\\OneDrive\\Masaüstü\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.427\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

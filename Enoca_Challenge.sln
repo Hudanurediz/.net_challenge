@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{86014DB7-0077-4024-9B20-9108A51DAF65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Host", "Host", "{68A3C6E0-D319-4522-89FB-E374C8C68193}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{ED02F356-093F-4D5D-A719-2F6E0F09A3AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enoca_Challenge.Domain", "Core\Enoca_Challenge.Domain\Enoca_Challenge.Domain.csproj", "{2F256869-BEC8-479C-86E6-4F2B0B2CB896}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enoca_Challenge.Application", "Core\Enoca_Challenge.Application\Enoca_Challenge.Application.csproj", "{4E1C8792-E678-4082-B671-0965B22AFF10}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enoca_Challenge.Persistance", "Infrastructure\Enoca_Challenge.Persistance\Enoca_Challenge.Persistance.csproj", "{28C3E59E-0C3A-4E7F-98A4-9206A6E2190A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enoca_Challenge.Infrastructure", "Infrastructure\Enoca_Challenge.Infrastructure\Enoca_Challenge.Infrastructure.csproj", "{408A539C-A5B1-424D-B70D-35EF453ECF56}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enoca_Challenge.WebApi", "Host\Enoca_Challenge.WebApi\Enoca_Challenge.WebApi.csproj", "{07867E53-B2BF-4DDC-87C6-E4246970C341}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7FE79EF3-6A8D-4FAB-AF40-5502AC2C3F7F}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F256869-BEC8-479C-86E6-4F2B0B2CB896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F256869-BEC8-479C-86E6-4F2B0B2CB896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F256869-BEC8-479C-86E6-4F2B0B2CB896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F256869-BEC8-479C-86E6-4F2B0B2CB896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E1C8792-E678-4082-B671-0965B22AFF10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E1C8792-E678-4082-B671-0965B22AFF10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E1C8792-E678-4082-B671-0965B22AFF10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E1C8792-E678-4082-B671-0965B22AFF10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28C3E59E-0C3A-4E7F-98A4-9206A6E2190A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28C3E59E-0C3A-4E7F-98A4-9206A6E2190A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28C3E59E-0C3A-4E7F-98A4-9206A6E2190A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28C3E59E-0C3A-4E7F-98A4-9206A6E2190A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{408A539C-A5B1-424D-B70D-35EF453ECF56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{408A539C-A5B1-424D-B70D-35EF453ECF56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{408A539C-A5B1-424D-B70D-35EF453ECF56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{408A539C-A5B1-424D-B70D-35EF453ECF56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07867E53-B2BF-4DDC-87C6-E4246970C341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07867E53-B2BF-4DDC-87C6-E4246970C341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07867E53-B2BF-4DDC-87C6-E4246970C341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07867E53-B2BF-4DDC-87C6-E4246970C341}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F256869-BEC8-479C-86E6-4F2B0B2CB896} = {86014DB7-0077-4024-9B20-9108A51DAF65}
+		{4E1C8792-E678-4082-B671-0965B22AFF10} = {86014DB7-0077-4024-9B20-9108A51DAF65}
+		{28C3E59E-0C3A-4E7F-98A4-9206A6E2190A} = {ED02F356-093F-4D5D-A719-2F6E0F09A3AB}
+		{408A539C-A5B1-424D-B70D-35EF453ECF56} = {ED02F356-093F-4D5D-A719-2F6E0F09A3AB}
+		{07867E53-B2BF-4DDC-87C6-E4246970C341} = {68A3C6E0-D319-4522-89FB-E374C8C68193}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39C544F1-447A-4EE3-92A7-4E7CB502B715}
+	EndGlobalSection
+EndGlobal

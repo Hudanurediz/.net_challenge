@@ -1,0 +1,6 @@
+@Enoca_Challenge.WebApi_HostAddress = http://localhost:5175
+
+GET {{Enoca_Challenge.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
