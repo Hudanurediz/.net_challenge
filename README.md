@@ -30,6 +30,8 @@ Günün her saatinde tetiklenecek şekilde yapılandırılmış bir background j
   
 Hangfire Dashboard konfigürasyonu yapılarak, dashboard üzerinden yönetim sağlandı.
 
+Veritabanı işlemlerinin bütünlüğünü sağlamak amacıyla transaction kullanıldı. Böylece herhangi bir hata durumunda tüm işlemler geri alınarak veri bütünlüğü korundu.
+
 
 ## Prensipler
 Proje geliştirilirken SOLID prensiplerine uygun, temiz ve anlaşılabilir kod yazmaya özen gösterilmiştir. 
