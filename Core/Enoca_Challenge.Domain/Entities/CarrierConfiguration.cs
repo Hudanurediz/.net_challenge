@@ -12,6 +12,7 @@ namespace Enoca_Challenge.Domain.Entities
 
         public int CarrierId { get; set; }
 
+        [JsonIgnore]
         public virtual Carrier? Carrier { get; set; }
 
         public CarrierConfiguration(int carrierMaxDesi, int carrierMinDesi, decimal carrierCost, int carrierId) : base()
