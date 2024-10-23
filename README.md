@@ -19,10 +19,10 @@ Veritabanı yönetimi için: SSMS
 
 ## Ek Geliştirmeler
 
-CarrierReports adında yeni bir veri tabanı tablosu oluşturuldu.
+CarrierReports adında yeni bir veri tabanı tablosu oluşturulmuştur.
 
-Günün her saatinde tetiklenecek şekilde yapılandırılmış bir background job yazıldı. Bu job tetiklendiğinde:
-  Sipariş tablosundaki tüm siparişler, kargo ve sipariş tarihi bazında gruplandı.
+Günün her saatinde tetiklenecek şekilde yapılandırılmış bir background job yazılmıştır. Bu job tetiklendiğinde:
+  Sipariş tablosundaki tüm siparişler, kargo ve sipariş tarihi bazında gruplandırıldı.
   
   Gruplanan siparişlerin kargo fiyatları toplandı.
   
@@ -38,4 +38,4 @@ Tekrar eden tablo kolonları için bir Base Entity sınıfı oluşturulmuş ve b
 
 Yapılan tüm işlemler sonucunda, işleme ait bir string response olarak sonuç döndürülmüştür.
 
-Exception handling sistemi sayesinde, her işlem sırasında oluşabilecek hatalar uygun şekilde ele alındı
+Exception handling sistemi sayesinde, her işlem sırasında oluşabilecek hatalar uygun şekilde ele alındı.
