@@ -1,4 +1,4 @@
-﻿using Enoca_Challenge.Application.Abstractions;
+using Enoca_Challenge.Application.Abstractions;
 using Enoca_Challenge.Application.Dtos;
 using Enoca_Challenge.Application.Features.Carriers.Commands.CreateCarrier;
 using Enoca_Challenge.Domain.Entities;
@@ -16,6 +16,7 @@ namespace Enoca_Challenge.Persistance.Repositories
 
         public async Task<bool> AddCarrier(CreateCarrierQueryRequest request)
         {
+            using var transaction = await _context.Database.BeginTransactionAsync();
             try
             {
                 var carrier = CreateCarrier(request);
@@ -46,11 +47,12 @@ namespace Enoca_Challenge.Persistance.Repositories
                 }
 
                 await _context.SaveChangesAsync();
-
+                await transaction.CommitAsync();
                 return true;
             }
             catch (Exception ex)
             {
+                await transaction.RollbackAsync();
                 throw new Exception("Hata: " + ex.Message, ex);
             }
         }
