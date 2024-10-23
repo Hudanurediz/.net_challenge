@@ -10,8 +10,10 @@ namespace Enoca_Challenge.Domain.Entities
 
         public int CarrierPlusDesiCost { get; set; }
 
+        [JsonIgnore]
         public virtual ICollection<Order> Orders { get; set; }
 
+        [JsonIgnore]
         public virtual ICollection<CarrierConfiguration> CarrierConfigurations { get; set; }
 
         public Carrier(string carrierName, bool carrierIsActive, int carrierPlusDesiCost) : base()
