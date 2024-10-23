@@ -16,21 +16,27 @@ namespace Enoca_Challenge.Application.Features.Carriers.Commands.CreateCarrier
         {
             try
             {
-                await _carrierWriteRepository.AddCarrier(request);
+                var carrier = await CreateCarrier(request);
+
                 return new CreateCarrierQueryResponse
                 {
                     Success = true,
                     Message = "Taşıyıcı öğesi başarıyla oluşturuldu."
                 };
             }
+            catch (InvalidOperationException ex)
+            {
+                throw new InvalidOperationException("Taşıyıcı silinirken bir hata oluştu.", ex);
+            }
             catch (Exception ex)
             {
-                return new CreateCarrierQueryResponse
-                {
-                    Success = false,
-                    Message = ex.Message
-                };
+                throw new Exception("Beklenmeyen bir hata oluştu.", ex);
             }
+        }
+
+        private async Task<bool> CreateCarrier(CreateCarrierQueryRequest request)
+        {
+            return await _carrierWriteRepository.AddCarrier(request);
         }
     }
 }

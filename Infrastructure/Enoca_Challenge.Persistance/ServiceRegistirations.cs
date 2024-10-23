@@ -19,8 +19,6 @@ namespace Enoca_Challenge.Persistance
             services.AddScoped<IOrderReadRepository, OrderReadRepository>();
             services.AddScoped<IOrderWriteRepository, OrderWriteRepository>();
            
-        }
-
-       
+        }    
     }
 }

@@ -1,5 +1,4 @@
 ﻿using Enoca_Challenge.Application.Abstractions;
-using Enoca_Challenge.Application.Features.CarrierConfigurations.Commands.DeleteCarrierConfiguration;
 using MediatR;
 
 namespace Enoca_Challenge.Application.Features.Carriers.Commands.DeleteCarrier
@@ -17,7 +16,7 @@ namespace Enoca_Challenge.Application.Features.Carriers.Commands.DeleteCarrier
         {
             try
             {
-                var deletionResult = _carrierWriteRepository.Delete(request.Id);
+                var deletionResult = DeleteCarrier(request);
                 var response = new DeleteCarrierQueryResponse
                 {
                     Success = deletionResult,
@@ -26,10 +25,19 @@ namespace Enoca_Challenge.Application.Features.Carriers.Commands.DeleteCarrier
 
                 return response;
             }
+            catch (InvalidOperationException ex)
+            {
+                throw new InvalidOperationException("Taşıyıcı silinirken bir hata oluştu.", ex);
+            }
             catch (Exception ex)
             {
                 throw new Exception("Beklenmeyen bir hata oluştu.", ex);
             }
+        }
+
+        private bool DeleteCarrier(DeleteCarrierQueryRequest request)
+        {
+            return _carrierWriteRepository.Delete(request.Id);
         }
     }
 }

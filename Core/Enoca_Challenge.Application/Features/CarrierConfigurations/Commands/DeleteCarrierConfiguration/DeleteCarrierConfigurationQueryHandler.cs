@@ -16,7 +16,7 @@ namespace Enoca_Challenge.Application.Features.CarrierConfigurations.Commands.De
         {
             try
             {
-                var deletionResult = _carrierConfigurationWriteRepository.Delete(request.Id);
+                var deletionResult = DeleteCarrierConfiguration(request);
                 var response = new DeleteCarrierConfigurationQueryResponse
                 {
                     Success = deletionResult,
@@ -25,10 +25,19 @@ namespace Enoca_Challenge.Application.Features.CarrierConfigurations.Commands.De
 
                 return response;
             }
+            catch (InvalidOperationException ex)
+            {
+                throw new InvalidOperationException("Taşıyıcı yapılandırması silinirken bir hata oluştu.", ex);
+            }
             catch (Exception ex)
             {
                 throw new Exception("Beklenmeyen bir hata oluştu.", ex);
             }
+        }
+
+        private bool DeleteCarrierConfiguration(DeleteCarrierConfigurationQueryRequest request)
+        {
+            return _carrierConfigurationWriteRepository.Delete(request.Id);
         }
     }
 }

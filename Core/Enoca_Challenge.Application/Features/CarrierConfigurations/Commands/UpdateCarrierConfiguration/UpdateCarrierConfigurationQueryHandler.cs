@@ -1,4 +1,7 @@
-﻿using Enoca_Challenge.Application.Abstractions;
+﻿using Azure.Core;
+using Enoca_Challenge.Application.Abstractions;
+using Enoca_Challenge.Application.Features.CarrierConfigurations.Commands.CreateCarrierConfiguration;
+using Enoca_Challenge.Domain.Entities;
 using MediatR;
 
 namespace Enoca_Challenge.Application.Features.CarrierConfigurations.Commands.UpdateCarrierConfiguration
@@ -18,41 +21,59 @@ namespace Enoca_Challenge.Application.Features.CarrierConfigurations.Commands.Up
         {
             try
             {
-                var entity = await _carrierConfigurationReadRepository.GetByIdAsync(request.Id);
+                var entity = await GetCarrierConfiguration(request.Id);
 
                 if (entity == null)
                 {
-                    return new UpdateCarrierConfigurationQueryResponse
-                    {
-                        Success = false,
-                        Message = "Veri bulunamadı."
-                    };
+                    return CreateResponse(false, "Veri bulunamadı.");
                 }
 
-                if (request.CarrierMaxDesi.HasValue && request.CarrierMaxDesi > 0)
-                    entity.CarrierMaxDesi = request.CarrierMaxDesi.Value;
+                UpdateIfValid(entity, request);
 
-                if (request.CarrierMinDesi.HasValue && request.CarrierMinDesi > 0)
-                    entity.CarrierMinDesi = request.CarrierMinDesi.Value;
+                var result= UpdateCarrierConfiguration(request.Id, entity);
 
-                if (request.CarrierCost.HasValue && request.CarrierCost > 0)
-                    entity.CarrierCost = request.CarrierCost.Value;
+                return CreateResponse(result, result ? "Veri başarıyla güncellendi." : "Güncelleme işlemi başarısız.");
 
-                if (request.CarrierId.HasValue && request.CarrierId > 0)
-                    entity.CarrierId = request.CarrierId.Value;
-
-
-                _carrierConfigurationWriteRepository.Update(request.Id, entity);
-                return new UpdateCarrierConfigurationQueryResponse
-                {
-                    Success = true,
-                    Message = "Veri başarıyla güncellendi."
-                };
             }
             catch (Exception ex)
             {
                 throw new Exception("Beklenmeyen bir hata oluştu.", ex);
             }
         }
+
+        private async Task<CarrierConfiguration> GetCarrierConfiguration(int id)
+        {
+            return await _carrierConfigurationReadRepository.GetByIdAsync(id);
+        }
+
+        private bool UpdateCarrierConfiguration(int id,CarrierConfiguration entity)
+        {
+            return _carrierConfigurationWriteRepository.Update(id, entity);
+        }
+
+        private void UpdateIfValid(CarrierConfiguration entity, UpdateCarrierConfigurationQueryRequest request)
+        {
+            if (request.CarrierMaxDesi.HasValue && request.CarrierMaxDesi.Value > 0)
+                entity.CarrierMaxDesi = request.CarrierMaxDesi.Value;
+
+            if (request.CarrierMinDesi.HasValue && request.CarrierMinDesi.Value > 0)
+                entity.CarrierMinDesi = request.CarrierMinDesi.Value;
+
+            if (request.CarrierCost.HasValue && request.CarrierCost.Value > 0)
+                entity.CarrierCost = request.CarrierCost.Value;
+
+            if (request.CarrierId.HasValue && request.CarrierId.Value > 0)
+                entity.CarrierId = request.CarrierId.Value;
+        }
+
+        private UpdateCarrierConfigurationQueryResponse CreateResponse(bool success, string message)
+        {
+            return new UpdateCarrierConfigurationQueryResponse
+            {
+                Success = success,
+                Message = message
+            };
+        }
+
     }
 }

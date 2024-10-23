@@ -16,7 +16,7 @@ namespace Enoca_Challenge.Application.Features.Orders.Commands.DeleteOrder
         {
             try
             {
-                var deletionResult = _orderWriteRepository.Delete(request.Id);
+                var deletionResult = DeleteOrder(request);
                 var response = new DeleteOrderQueryResponse
                 {
                     Success = deletionResult,
@@ -25,10 +25,19 @@ namespace Enoca_Challenge.Application.Features.Orders.Commands.DeleteOrder
 
                 return response;
             }
+            catch (InvalidOperationException ex)
+            {
+                throw new InvalidOperationException("Sipariş silinirken bir hata oluştu.", ex);
+            }
             catch (Exception ex)
             {
                 throw new Exception("Beklenmeyen bir hata oluştu.", ex);
             }
+        }
+
+        private bool DeleteOrder(DeleteOrderQueryRequest request)
+        {
+            return _orderWriteRepository.Delete(request.Id);
         }
     }
 }

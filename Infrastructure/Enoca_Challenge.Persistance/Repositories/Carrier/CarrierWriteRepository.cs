@@ -1,4 +1,5 @@
 ﻿using Enoca_Challenge.Application.Abstractions;
+using Enoca_Challenge.Application.Dtos;
 using Enoca_Challenge.Application.Features.Carriers.Commands.CreateCarrier;
 using Enoca_Challenge.Domain.Entities;
 using Enoca_Challenge.Persistance.Context;
@@ -17,7 +18,7 @@ namespace Enoca_Challenge.Persistance.Repositories
         {
             try
             {
-                var carrier = new Carrier(request.CarrierName, request.CarrierIsActive, request.CarrierPlusDesiCost);
+                var carrier = CreateCarrier(request);
 
                 await _context.Carriers.AddAsync(carrier);
                 await _context.SaveChangesAsync();
@@ -26,11 +27,7 @@ namespace Enoca_Challenge.Persistance.Repositories
                 {
                     foreach (var carrierConfiguration in request.CarrierConfigurations)
                     {
-                        var configuration = new CarrierConfiguration(
-                            carrierConfiguration.CarrierMaxDesi,
-                            carrierConfiguration.CarrierMinDesi,
-                            carrierConfiguration.CarrierCost,
-                            carrier.Id);
+                        var configuration =  CreateCarrierConfiguration(carrier.Id, carrierConfiguration);
 
                         carrier.CarrierConfigurations.Add(configuration);
                     }
@@ -42,11 +39,7 @@ namespace Enoca_Challenge.Persistance.Repositories
                     {
                         var carrierCost = await _orderWriteRepository.CalculateCarrierCost(order.OrderDesi);
 
-                        var newOrder = new Order(
-                            order.OrderDesi,
-                            DateTime.UtcNow,
-                            carrierCost.OrderCarrierCost,
-                            carrierCost.CarrierId);
+                        var newOrder = CreateOrder(order.OrderDesi,carrierCost);
 
                         carrier.Orders.Add(newOrder);
                     }
@@ -60,6 +53,29 @@ namespace Enoca_Challenge.Persistance.Repositories
             {
                 throw new Exception("Hata: " + ex.Message, ex);
             }
+        }
+
+        private Carrier CreateCarrier(CreateCarrierQueryRequest request)
+        {
+            return new Carrier(request.CarrierName, request.CarrierIsActive, request.CarrierPlusDesiCost);
+        }
+
+        private CarrierConfiguration CreateCarrierConfiguration(int id,CarrierConfiguration carrierConfiguration)
+        {
+            return new CarrierConfiguration(
+                            carrierConfiguration.CarrierMaxDesi,
+                            carrierConfiguration.CarrierMinDesi,
+                            carrierConfiguration.CarrierCost,
+                            id);
+        }
+
+        private Order CreateOrder(int desi,CalculateCostDto calculateCostDto)
+        {
+            return new Order(
+                            desi,
+                            DateTime.UtcNow,
+                            calculateCostDto.OrderCarrierCost,
+                            calculateCostDto.CarrierId);
         }
     }
 }

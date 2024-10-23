@@ -20,37 +20,62 @@ namespace Enoca_Challenge.Application.Features.CarrierConfigurations.Commands.Cr
         {
             try
             {
-                var carrierConfiguration = new CarrierConfiguration(
-                    request.CarrierMaxDesi,
-                    request.CarrierMinDesi,
-                    request.CarrierCost,
-                    request.CarrierId);
+                var carrierConfiguration = CreateCarrierConfiguration(request);
 
+                var carrier = await GetCarrier(request.CarrierId);
 
-                var carrier = await _carrierReadRepository.GetByIdAsync(request.CarrierId);
                 if (carrier == null)
                 {
                     throw new ArgumentException("Taşıyıcı mevcut değil.");
                 }
 
+                var newCarrierConfiguration = await SaveCarrierConfiguration(carrierConfiguration);
 
-                var newcarrierConfiguration = await _carrierConfigurationWriteRepository.AddAsync(carrierConfiguration);
-                if (newcarrierConfiguration != null)
-                {
-                    return new CreateCarrierConfigurationQueryResponse
-                    {
-                        CarrierConfiguration = newcarrierConfiguration,
-                        Success = true,
-                        Message = "Taşıyıcı Yapılandırması başarıyla oluşturuldu."
-                    };
-                }
-
-                throw new InvalidOperationException("Taşıyıcı Yapılandırması kaydedilemedi.");
+                return CreateSuccessResponse(newCarrierConfiguration);
+            }
+            catch (ArgumentException ex)
+            {
+                throw new ArgumentException("Geçersiz işlem: " + ex.Message, ex);
             }
             catch (Exception ex)
             {
-                throw new Exception("Taşıyıcı Yapılandırması oluşturulurken beklenmeyen bir hata oluştu.", ex);
+                throw new Exception("Taşıyıcı Yapılandırması oluşturulurken hata oluştu.", ex);
             }
+        }
+
+        private CarrierConfiguration CreateCarrierConfiguration(CreateCarrierConfigurationQueryRequest request)
+        {
+            var carrierConfiguration = new CarrierConfiguration(
+                       request.CarrierMaxDesi,
+                       request.CarrierMinDesi,
+                       request.CarrierCost,
+                       request.CarrierId);
+            return carrierConfiguration;
+        }
+
+        private async Task<CarrierConfiguration> SaveCarrierConfiguration(CarrierConfiguration entity)
+        {
+            return await _carrierConfigurationWriteRepository.AddAsync(entity);
+        }
+
+        private async Task<Carrier> GetCarrier(int id)
+        {
+            return await _carrierReadRepository.GetByIdAsync(id);
+        }
+
+        private CreateCarrierConfigurationQueryResponse CreateSuccessResponse(CarrierConfiguration newCarrierConfiguration)
+        {
+            if (newCarrierConfiguration == null)
+            {
+                throw new InvalidOperationException("Taşıyıcı Yapılandırması kaydedilemedi.");
+            }
+
+            return new CreateCarrierConfigurationQueryResponse
+            {
+                CarrierConfiguration = newCarrierConfiguration,
+                Success = true,
+                Message = "Taşıyıcı Yapılandırması başarıyla oluşturuldu."
+            };
         }
     }
 }

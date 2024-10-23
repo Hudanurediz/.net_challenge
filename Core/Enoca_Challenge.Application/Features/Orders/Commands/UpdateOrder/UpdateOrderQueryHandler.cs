@@ -1,4 +1,5 @@
 ﻿using Enoca_Challenge.Application.Abstractions;
+using Enoca_Challenge.Domain.Entities;
 using MediatR;
 
 namespace Enoca_Challenge.Application.Features.Orders.Commands.UpdateOrder
@@ -18,7 +19,7 @@ namespace Enoca_Challenge.Application.Features.Orders.Commands.UpdateOrder
         {
             try
             {
-                var entity = await _orderReadRepository.GetByIdAsync(request.Id);
+                var entity = await GetOrder(request);
 
                 if (entity == null)
                 {
@@ -29,32 +30,53 @@ namespace Enoca_Challenge.Application.Features.Orders.Commands.UpdateOrder
                     };
                 }
 
-                var oldOrderDesi = entity.OrderDesi;
+                await UpdateOrderDetails(entity, request);
 
-                if (request.OrderDesi.HasValue && request.OrderDesi > 0)
-                {
-                    entity.OrderDesi = request.OrderDesi.Value;
+                var result=UpdateOrder(request.Id, entity);
 
-                    if (oldOrderDesi != entity.OrderDesi)
-                    {
-                        var updatedCost = await _orderWriteRepository.CalculateCarrierCost(entity.OrderDesi);
-                        entity.OrderCarrierCost = updatedCost.OrderCarrierCost;
-                        entity.OrderDate = DateTime.Now;
-                        entity.CarrierId = updatedCost.CarrierId;
-                    }
-                }
-
-                _orderWriteRepository.Update(request.Id, entity);
-                return new UpdateOrderQueryResponse
-                {
-                    Success = true,
-                    Message = "Veri başarıyla güncellendi."
-                };
+                return CreateResponse(result, result ? "Veri başarıyla güncellendi." : "Güncelleme işlemi başarısız.");
             }
             catch (Exception ex)
             {
                 throw new Exception("Beklenmeyen bir hata oluştu.", ex);
             }
+        }
+
+        private async Task<Order> GetOrder(UpdateOrderQueryRequest request)
+        {
+            return await _orderReadRepository.GetByIdAsync(request.Id);
+        }
+
+        private bool UpdateOrder(int id,Order entity)
+        {
+            return _orderWriteRepository.Update(id, entity);
+        }
+
+        private async Task UpdateOrderDetails(Order entity, UpdateOrderQueryRequest request)
+        {
+            var oldOrderDesi = entity.OrderDesi;
+
+            if (request.OrderDesi.HasValue && request.OrderDesi > 0)
+            {
+                entity.OrderDesi = request.OrderDesi.Value;
+
+                if (oldOrderDesi != entity.OrderDesi)
+                {
+                    var updatedCost = await _orderWriteRepository.CalculateCarrierCost(entity.OrderDesi);
+                    entity.OrderCarrierCost = updatedCost.OrderCarrierCost;
+                    entity.OrderDate = DateTime.UtcNow;
+                    entity.CarrierId = updatedCost.CarrierId;
+                }
+            }
+        }
+
+        private UpdateOrderQueryResponse CreateResponse(bool success, string message)
+        {
+            return new UpdateOrderQueryResponse
+            {
+                Success = success,
+                Message = message
+            };
         }
     }
 }

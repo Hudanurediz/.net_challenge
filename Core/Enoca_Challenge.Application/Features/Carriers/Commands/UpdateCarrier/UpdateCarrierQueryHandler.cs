@@ -1,4 +1,7 @@
-﻿using Enoca_Challenge.Application.Abstractions;
+﻿using Azure.Core;
+using Enoca_Challenge.Application.Abstractions;
+using Enoca_Challenge.Application.Features.CarrierConfigurations.Commands.UpdateCarrierConfiguration;
+using Enoca_Challenge.Domain.Entities;
 using MediatR;
 
 namespace Enoca_Challenge.Application.Features.Carriers.Commands.UpdateCarrier
@@ -18,7 +21,7 @@ namespace Enoca_Challenge.Application.Features.Carriers.Commands.UpdateCarrier
         {
             try
             {
-                var entity = await _carrierReadRepository.GetByIdAsync(request.Id);
+                var entity = await GetCarrier(request.Id);
 
                 if (entity == null)
                 {
@@ -29,27 +32,53 @@ namespace Enoca_Challenge.Application.Features.Carriers.Commands.UpdateCarrier
                     };
                 }
 
-                if (!string.IsNullOrEmpty(request.CarrierName))
-                    entity.CarrierName = request.CarrierName;
+                UpdateIfValid(entity, request);
 
-                if (request.CarrierIsActive.HasValue)
-                    entity.CarrierIsActive = request.CarrierIsActive.Value;
+                var result = UpdateCarrier(request.Id, entity);
 
-                if (request.CarrierPlusDesiCost.HasValue && request.CarrierPlusDesiCost > 0)
-                    entity.CarrierPlusDesiCost = request.CarrierPlusDesiCost.Value;
+                return CreateResponse(result, result ? "Veri başarıyla güncellendi." : "Güncelleme işlemi başarısız.");
 
-                _carrierWriteRepository.Update(request.Id, entity);
-                return new UpdateCarrierQueryResponse
-                {
-                    Success = true,
-                    Message = "Veri başarıyla güncellendi."
-                };
-
-            } 
+            }
+            catch (InvalidOperationException ex)
+            {
+                throw new InvalidOperationException("Taşıyıcı güncellenirken bir hata oluştu.", ex);
+            }
             catch (Exception ex)
             {
                 throw new Exception("Beklenmeyen bir hata oluştu.", ex);
             }
         }
+
+        private async Task<Carrier> GetCarrier(int id)
+        {
+            return await _carrierReadRepository.GetByIdAsync(id);
+        }
+
+        private void UpdateIfValid(Carrier entity,UpdateCarrierQueryRequest request)
+        {
+            if (!string.IsNullOrEmpty(request.CarrierName))
+                entity.CarrierName = request.CarrierName;
+
+            if (request.CarrierIsActive.HasValue)
+                entity.CarrierIsActive = request.CarrierIsActive.Value;
+
+            if (request.CarrierPlusDesiCost.HasValue && request.CarrierPlusDesiCost > 0)
+                entity.CarrierPlusDesiCost = request.CarrierPlusDesiCost.Value;
+        }
+
+        private bool UpdateCarrier(int id,Carrier entity)
+        {
+            return _carrierWriteRepository.Update(id, entity);
+        }
+
+        private UpdateCarrierQueryResponse CreateResponse(bool success, string message)
+        {
+            return new UpdateCarrierQueryResponse
+            {
+                Success = success,
+                Message = message
+            };
+        }
+
     }
 }

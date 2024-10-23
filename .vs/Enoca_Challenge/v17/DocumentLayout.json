@@ -3,8 +3,208 @@
   "WorkspaceRootPath": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7FE79EF3-6A8D-4FAB-AF40-5502AC2C3F7F}|Solution Items{7FE79EF3-6A8D-4FAB-AF40-5502AC2C3F7F}|C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\global.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7FE79EF3-6A8D-4FAB-AF40-5502AC2C3F7F}|Solution Items{7FE79EF3-6A8D-4FAB-AF40-5502AC2C3F7F}|solutionrelative:global.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28C3E59E-0C3A-4E7F-98A4-9206A6E2190A}|Infrastructure\\Enoca_Challenge.Persistance\\Enoca_Challenge.Persistance.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\infrastructure\\enoca_challenge.persistance\\serviceregistirations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28C3E59E-0C3A-4E7F-98A4-9206A6E2190A}|Infrastructure\\Enoca_Challenge.Persistance\\Enoca_Challenge.Persistance.csproj|solutionrelative:infrastructure\\enoca_challenge.persistance\\serviceregistirations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28C3E59E-0C3A-4E7F-98A4-9206A6E2190A}|Infrastructure\\Enoca_Challenge.Persistance\\Enoca_Challenge.Persistance.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\infrastructure\\enoca_challenge.persistance\\repositories\\writerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28C3E59E-0C3A-4E7F-98A4-9206A6E2190A}|Infrastructure\\Enoca_Challenge.Persistance\\Enoca_Challenge.Persistance.csproj|solutionrelative:infrastructure\\enoca_challenge.persistance\\repositories\\writerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28C3E59E-0C3A-4E7F-98A4-9206A6E2190A}|Infrastructure\\Enoca_Challenge.Persistance\\Enoca_Challenge.Persistance.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\infrastructure\\enoca_challenge.persistance\\repositories\\readrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28C3E59E-0C3A-4E7F-98A4-9206A6E2190A}|Infrastructure\\Enoca_Challenge.Persistance\\Enoca_Challenge.Persistance.csproj|solutionrelative:infrastructure\\enoca_challenge.persistance\\repositories\\readrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{28C3E59E-0C3A-4E7F-98A4-9206A6E2190A}|Infrastructure\\Enoca_Challenge.Persistance\\Enoca_Challenge.Persistance.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\infrastructure\\enoca_challenge.persistance\\repositories\\order\\orderwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28C3E59E-0C3A-4E7F-98A4-9206A6E2190A}|Infrastructure\\Enoca_Challenge.Persistance\\Enoca_Challenge.Persistance.csproj|solutionrelative:infrastructure\\enoca_challenge.persistance\\repositories\\order\\orderwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28C3E59E-0C3A-4E7F-98A4-9206A6E2190A}|Infrastructure\\Enoca_Challenge.Persistance\\Enoca_Challenge.Persistance.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\infrastructure\\enoca_challenge.persistance\\repositories\\order\\orderreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28C3E59E-0C3A-4E7F-98A4-9206A6E2190A}|Infrastructure\\Enoca_Challenge.Persistance\\Enoca_Challenge.Persistance.csproj|solutionrelative:infrastructure\\enoca_challenge.persistance\\repositories\\order\\orderreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28C3E59E-0C3A-4E7F-98A4-9206A6E2190A}|Infrastructure\\Enoca_Challenge.Persistance\\Enoca_Challenge.Persistance.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\infrastructure\\enoca_challenge.persistance\\repositories\\carrierconfiguration\\carrierconfigurationwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28C3E59E-0C3A-4E7F-98A4-9206A6E2190A}|Infrastructure\\Enoca_Challenge.Persistance\\Enoca_Challenge.Persistance.csproj|solutionrelative:infrastructure\\enoca_challenge.persistance\\repositories\\carrierconfiguration\\carrierconfigurationwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28C3E59E-0C3A-4E7F-98A4-9206A6E2190A}|Infrastructure\\Enoca_Challenge.Persistance\\Enoca_Challenge.Persistance.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\infrastructure\\enoca_challenge.persistance\\repositories\\carrierconfiguration\\carrierconfigurationreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28C3E59E-0C3A-4E7F-98A4-9206A6E2190A}|Infrastructure\\Enoca_Challenge.Persistance\\Enoca_Challenge.Persistance.csproj|solutionrelative:infrastructure\\enoca_challenge.persistance\\repositories\\carrierconfiguration\\carrierconfigurationreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28C3E59E-0C3A-4E7F-98A4-9206A6E2190A}|Infrastructure\\Enoca_Challenge.Persistance\\Enoca_Challenge.Persistance.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\infrastructure\\enoca_challenge.persistance\\repositories\\carrier\\carrierwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28C3E59E-0C3A-4E7F-98A4-9206A6E2190A}|Infrastructure\\Enoca_Challenge.Persistance\\Enoca_Challenge.Persistance.csproj|solutionrelative:infrastructure\\enoca_challenge.persistance\\repositories\\carrier\\carrierwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28C3E59E-0C3A-4E7F-98A4-9206A6E2190A}|Infrastructure\\Enoca_Challenge.Persistance\\Enoca_Challenge.Persistance.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\infrastructure\\enoca_challenge.persistance\\repositories\\carrier\\carrierreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28C3E59E-0C3A-4E7F-98A4-9206A6E2190A}|Infrastructure\\Enoca_Challenge.Persistance\\Enoca_Challenge.Persistance.csproj|solutionrelative:infrastructure\\enoca_challenge.persistance\\repositories\\carrier\\carrierreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28C3E59E-0C3A-4E7F-98A4-9206A6E2190A}|Infrastructure\\Enoca_Challenge.Persistance\\Enoca_Challenge.Persistance.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\infrastructure\\enoca_challenge.persistance\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28C3E59E-0C3A-4E7F-98A4-9206A6E2190A}|Infrastructure\\Enoca_Challenge.Persistance\\Enoca_Challenge.Persistance.csproj|solutionrelative:infrastructure\\enoca_challenge.persistance\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07867E53-B2BF-4DDC-87C6-E4246970C341}|Host\\Enoca_Challenge.WebApi\\Enoca_Challenge.WebApi.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\host\\enoca_challenge.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07867E53-B2BF-4DDC-87C6-E4246970C341}|Host\\Enoca_Challenge.WebApi\\Enoca_Challenge.WebApi.csproj|solutionrelative:host\\enoca_challenge.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07867E53-B2BF-4DDC-87C6-E4246970C341}|Host\\Enoca_Challenge.WebApi\\Enoca_Challenge.WebApi.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\host\\enoca_challenge.webapi\\jobs\\reportgenerationjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07867E53-B2BF-4DDC-87C6-E4246970C341}|Host\\Enoca_Challenge.WebApi\\Enoca_Challenge.WebApi.csproj|solutionrelative:host\\enoca_challenge.webapi\\jobs\\reportgenerationjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07867E53-B2BF-4DDC-87C6-E4246970C341}|Host\\Enoca_Challenge.WebApi\\Enoca_Challenge.WebApi.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\host\\enoca_challenge.webapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07867E53-B2BF-4DDC-87C6-E4246970C341}|Host\\Enoca_Challenge.WebApi\\Enoca_Challenge.WebApi.csproj|solutionrelative:host\\enoca_challenge.webapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07867E53-B2BF-4DDC-87C6-E4246970C341}|Host\\Enoca_Challenge.WebApi\\Enoca_Challenge.WebApi.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\host\\enoca_challenge.webapi\\controllers\\carriercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07867E53-B2BF-4DDC-87C6-E4246970C341}|Host\\Enoca_Challenge.WebApi\\Enoca_Challenge.WebApi.csproj|solutionrelative:host\\enoca_challenge.webapi\\controllers\\carriercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07867E53-B2BF-4DDC-87C6-E4246970C341}|Host\\Enoca_Challenge.WebApi\\Enoca_Challenge.WebApi.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\host\\enoca_challenge.webapi\\controllers\\carrierconfigurationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07867E53-B2BF-4DDC-87C6-E4246970C341}|Host\\Enoca_Challenge.WebApi\\Enoca_Challenge.WebApi.csproj|solutionrelative:host\\enoca_challenge.webapi\\controllers\\carrierconfigurationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.application\\features\\orders\\queries\\getallorders\\getallordersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|solutionrelative:core\\enoca_challenge.application\\features\\orders\\queries\\getallorders\\getallordersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.application\\features\\carriers\\queries\\getallcarriers\\getallcarriersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|solutionrelative:core\\enoca_challenge.application\\features\\carriers\\queries\\getallcarriers\\getallcarriersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.application\\features\\orders\\commands\\updateorder\\updateorderqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|solutionrelative:core\\enoca_challenge.application\\features\\orders\\commands\\updateorder\\updateorderqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.application\\features\\orders\\commands\\deleteorder\\deleteorderqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|solutionrelative:core\\enoca_challenge.application\\features\\orders\\commands\\deleteorder\\deleteorderqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.application\\features\\carrierconfigurations\\commands\\deletecarrierconfiguration\\deletecarrierconfigurationqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|solutionrelative:core\\enoca_challenge.application\\features\\carrierconfigurations\\commands\\deletecarrierconfiguration\\deletecarrierconfigurationqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.application\\features\\carriers\\commands\\deletecarrier\\deletecarrierqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|solutionrelative:core\\enoca_challenge.application\\features\\carriers\\commands\\deletecarrier\\deletecarrierqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.application\\features\\orders\\commands\\createorder\\createorderqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|solutionrelative:core\\enoca_challenge.application\\features\\orders\\commands\\createorder\\createorderqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.application\\features\\carrierconfigurations\\queries\\getallcarrierconfigurations\\getallcarrierconfigurationsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|solutionrelative:core\\enoca_challenge.application\\features\\carrierconfigurations\\queries\\getallcarrierconfigurations\\getallcarrierconfigurationsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.application\\features\\carriers\\commands\\updatecarrier\\updatecarrierqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|solutionrelative:core\\enoca_challenge.application\\features\\carriers\\commands\\updatecarrier\\updatecarrierqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.application\\features\\carriers\\commands\\updatecarrier\\updatecarrierqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|solutionrelative:core\\enoca_challenge.application\\features\\carriers\\commands\\updatecarrier\\updatecarrierqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.application\\features\\carriers\\commands\\updatecarrier\\updatecarrierqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|solutionrelative:core\\enoca_challenge.application\\features\\carriers\\commands\\updatecarrier\\updatecarrierqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.application\\features\\carrierconfigurations\\commands\\updatecarrierconfiguration\\updatecarrierconfigurationqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|solutionrelative:core\\enoca_challenge.application\\features\\carrierconfigurations\\commands\\updatecarrierconfiguration\\updatecarrierconfigurationqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.application\\features\\carrierconfigurations\\commands\\updatecarrierconfiguration\\updatecarrierconfigurationqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|solutionrelative:core\\enoca_challenge.application\\features\\carrierconfigurations\\commands\\updatecarrierconfiguration\\updatecarrierconfigurationqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.application\\features\\carrierconfigurations\\commands\\updatecarrierconfiguration\\updatecarrierconfigurationqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|solutionrelative:core\\enoca_challenge.application\\features\\carrierconfigurations\\commands\\updatecarrierconfiguration\\updatecarrierconfigurationqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.application\\features\\carriers\\commands\\deletecarrier\\deletecarrierqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|solutionrelative:core\\enoca_challenge.application\\features\\carriers\\commands\\deletecarrier\\deletecarrierqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.application\\features\\carriers\\commands\\deletecarrier\\deletecarrierqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|solutionrelative:core\\enoca_challenge.application\\features\\carriers\\commands\\deletecarrier\\deletecarrierqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.application\\features\\carriers\\commands\\createcarrier\\createcarrierqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|solutionrelative:core\\enoca_challenge.application\\features\\carriers\\commands\\createcarrier\\createcarrierqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.application\\features\\carriers\\commands\\createcarrier\\createcarrierqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|solutionrelative:core\\enoca_challenge.application\\features\\carriers\\commands\\createcarrier\\createcarrierqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.application\\features\\carriers\\commands\\createcarrier\\createcarrierqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|solutionrelative:core\\enoca_challenge.application\\features\\carriers\\commands\\createcarrier\\createcarrierqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.application\\features\\carrierconfigurations\\commands\\createcarrierconfiguration\\createcarrierconfigurationqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|solutionrelative:core\\enoca_challenge.application\\features\\carrierconfigurations\\commands\\createcarrierconfiguration\\createcarrierconfigurationqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.application\\abstractions\\iwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|solutionrelative:core\\enoca_challenge.application\\abstractions\\iwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.application\\features\\carrierconfigurations\\commands\\createcarrierconfiguration\\createcarrierconfigurationqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|solutionrelative:core\\enoca_challenge.application\\features\\carrierconfigurations\\commands\\createcarrierconfiguration\\createcarrierconfigurationqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.application\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|solutionrelative:core\\enoca_challenge.application\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F256869-BEC8-479C-86E6-4F2B0B2CB896}|Core\\Enoca_Challenge.Domain\\Enoca_Challenge.Domain.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.domain\\entities\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F256869-BEC8-479C-86E6-4F2B0B2CB896}|Core\\Enoca_Challenge.Domain\\Enoca_Challenge.Domain.csproj|solutionrelative:core\\enoca_challenge.domain\\entities\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.application\\dtos\\calculatecostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|solutionrelative:core\\enoca_challenge.application\\dtos\\calculatecostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.application\\dtos\\baseresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|solutionrelative:core\\enoca_challenge.application\\dtos\\baseresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.application\\abstractions\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|solutionrelative:core\\enoca_challenge.application\\abstractions\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.application\\abstractions\\ireadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|solutionrelative:core\\enoca_challenge.application\\abstractions\\ireadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.application\\abstractions\\order\\iorderwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|solutionrelative:core\\enoca_challenge.application\\abstractions\\order\\iorderwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.application\\abstractions\\order\\iorderreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|solutionrelative:core\\enoca_challenge.application\\abstractions\\order\\iorderreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.application\\abstractions\\carrierconfiguration\\icarrierconfigurationwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|solutionrelative:core\\enoca_challenge.application\\abstractions\\carrierconfiguration\\icarrierconfigurationwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.application\\abstractions\\carrierconfiguration\\icarrierconfigurationreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|solutionrelative:core\\enoca_challenge.application\\abstractions\\carrierconfiguration\\icarrierconfigurationreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.application\\abstractions\\carrier\\icarrierwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|solutionrelative:core\\enoca_challenge.application\\abstractions\\carrier\\icarrierwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.application\\abstractions\\carrier\\icarrierreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1C8792-E678-4082-B671-0965B22AFF10}|Core\\Enoca_Challenge.Application\\Enoca_Challenge.Application.csproj|solutionrelative:core\\enoca_challenge.application\\abstractions\\carrier\\icarrierreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F256869-BEC8-479C-86E6-4F2B0B2CB896}|Core\\Enoca_Challenge.Domain\\Enoca_Challenge.Domain.csproj|c:\\users\\hudan\\onedrive\\masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\enoca_challenge\\core\\enoca_challenge.domain\\entities\\carrierconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F256869-BEC8-479C-86E6-4F2B0B2CB896}|Core\\Enoca_Challenge.Domain\\Enoca_Challenge.Domain.csproj|solutionrelative:core\\enoca_challenge.domain\\entities\\carrierconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +214,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Bookmark",
@@ -27,15 +231,653 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "global.json",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\global.json",
+              "RelativeDocumentMoniker": "global.json",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\global.json",
+              "RelativeToolTip": "global.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-23T09:37:50.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "OrderWriteRepository.cs",
               "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Infrastructure\\Enoca_Challenge.Persistance\\Repositories\\Order\\OrderWriteRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Enoca_Challenge.Persistance\\Repositories\\Order\\OrderWriteRepository.cs",
               "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Infrastructure\\Enoca_Challenge.Persistance\\Repositories\\Order\\OrderWriteRepository.cs",
               "RelativeToolTip": "Infrastructure\\Enoca_Challenge.Persistance\\Repositories\\Order\\OrderWriteRepository.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAC0AAAARAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwH0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T19:25:19.518Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReadRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Infrastructure\\Enoca_Challenge.Persistance\\Repositories\\ReadRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Enoca_Challenge.Persistance\\Repositories\\ReadRepository.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Infrastructure\\Enoca_Challenge.Persistance\\Repositories\\ReadRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Enoca_Challenge.Persistance\\Repositories\\ReadRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T21:00:00.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WriteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Infrastructure\\Enoca_Challenge.Persistance\\Repositories\\WriteRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Enoca_Challenge.Persistance\\Repositories\\WriteRepository.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Infrastructure\\Enoca_Challenge.Persistance\\Repositories\\WriteRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Enoca_Challenge.Persistance\\Repositories\\WriteRepository.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAC8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T21:00:04.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServiceRegistirations.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Infrastructure\\Enoca_Challenge.Persistance\\ServiceRegistirations.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Enoca_Challenge.Persistance\\ServiceRegistirations.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Infrastructure\\Enoca_Challenge.Persistance\\ServiceRegistirations.cs",
+              "RelativeToolTip": "Infrastructure\\Enoca_Challenge.Persistance\\ServiceRegistirations.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:05:10.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderReadRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Infrastructure\\Enoca_Challenge.Persistance\\Repositories\\Order\\OrderReadRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Enoca_Challenge.Persistance\\Repositories\\Order\\OrderReadRepository.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Infrastructure\\Enoca_Challenge.Persistance\\Repositories\\Order\\OrderReadRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Enoca_Challenge.Persistance\\Repositories\\Order\\OrderReadRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T21:13:40.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CarrierConfigurationWriteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Infrastructure\\Enoca_Challenge.Persistance\\Repositories\\CarrierConfiguration\\CarrierConfigurationWriteRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Enoca_Challenge.Persistance\\Repositories\\CarrierConfiguration\\CarrierConfigurationWriteRepository.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Infrastructure\\Enoca_Challenge.Persistance\\Repositories\\CarrierConfiguration\\CarrierConfigurationWriteRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Enoca_Challenge.Persistance\\Repositories\\CarrierConfiguration\\CarrierConfigurationWriteRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T21:13:39.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CarrierConfigurationReadRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Infrastructure\\Enoca_Challenge.Persistance\\Repositories\\CarrierConfiguration\\CarrierConfigurationReadRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Enoca_Challenge.Persistance\\Repositories\\CarrierConfiguration\\CarrierConfigurationReadRepository.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Infrastructure\\Enoca_Challenge.Persistance\\Repositories\\CarrierConfiguration\\CarrierConfigurationReadRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Enoca_Challenge.Persistance\\Repositories\\CarrierConfiguration\\CarrierConfigurationReadRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T21:13:37.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CarrierWriteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Infrastructure\\Enoca_Challenge.Persistance\\Repositories\\Carrier\\CarrierWriteRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Enoca_Challenge.Persistance\\Repositories\\Carrier\\CarrierWriteRepository.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Infrastructure\\Enoca_Challenge.Persistance\\Repositories\\Carrier\\CarrierWriteRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Enoca_Challenge.Persistance\\Repositories\\Carrier\\CarrierWriteRepository.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T21:02:51.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CarrierReadRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Infrastructure\\Enoca_Challenge.Persistance\\Repositories\\Carrier\\CarrierReadRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Enoca_Challenge.Persistance\\Repositories\\Carrier\\CarrierReadRepository.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Infrastructure\\Enoca_Challenge.Persistance\\Repositories\\Carrier\\CarrierReadRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Enoca_Challenge.Persistance\\Repositories\\Carrier\\CarrierReadRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T21:02:50.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Infrastructure\\Enoca_Challenge.Persistance\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Enoca_Challenge.Persistance\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Infrastructure\\Enoca_Challenge.Persistance\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Enoca_Challenge.Persistance\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T19:50:14.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Host\\Enoca_Challenge.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Host\\Enoca_Challenge.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Host\\Enoca_Challenge.WebApi\\Program.cs",
+              "RelativeToolTip": "Host\\Enoca_Challenge.WebApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:26:37.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ReportGenerationJob.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Host\\Enoca_Challenge.WebApi\\Jobs\\ReportGenerationJob.cs",
+              "RelativeDocumentMoniker": "Host\\Enoca_Challenge.WebApi\\Jobs\\ReportGenerationJob.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Host\\Enoca_Challenge.WebApi\\Jobs\\ReportGenerationJob.cs",
+              "RelativeToolTip": "Host\\Enoca_Challenge.WebApi\\Jobs\\ReportGenerationJob.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwDEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T21:06:21.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Host\\Enoca_Challenge.WebApi\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Host\\Enoca_Challenge.WebApi\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Host\\Enoca_Challenge.WebApi\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Host\\Enoca_Challenge.WebApi\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:19:45.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CarrierController.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Host\\Enoca_Challenge.WebApi\\Controllers\\CarrierController.cs",
+              "RelativeDocumentMoniker": "Host\\Enoca_Challenge.WebApi\\Controllers\\CarrierController.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Host\\Enoca_Challenge.WebApi\\Controllers\\CarrierController.cs",
+              "RelativeToolTip": "Host\\Enoca_Challenge.WebApi\\Controllers\\CarrierController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:19:39.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CarrierConfigurationController.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Host\\Enoca_Challenge.WebApi\\Controllers\\CarrierConfigurationController.cs",
+              "RelativeDocumentMoniker": "Host\\Enoca_Challenge.WebApi\\Controllers\\CarrierConfigurationController.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Host\\Enoca_Challenge.WebApi\\Controllers\\CarrierConfigurationController.cs",
+              "RelativeToolTip": "Host\\Enoca_Challenge.WebApi\\Controllers\\CarrierConfigurationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:19:31.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GetAllOrdersQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\Orders\\Queries\\GetAllOrders\\GetAllOrdersQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Application\\Features\\Orders\\Queries\\GetAllOrders\\GetAllOrdersQueryHandler.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\Orders\\Queries\\GetAllOrders\\GetAllOrdersQueryHandler.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Application\\Features\\Orders\\Queries\\GetAllOrders\\GetAllOrdersQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:17:23.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UpdateOrderQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\Orders\\Commands\\UpdateOrder\\UpdateOrderQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Application\\Features\\Orders\\Commands\\UpdateOrder\\UpdateOrderQueryHandler.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\Orders\\Commands\\UpdateOrder\\UpdateOrderQueryHandler.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Application\\Features\\Orders\\Commands\\UpdateOrder\\UpdateOrderQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:11:48.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DeleteOrderQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\Orders\\Commands\\DeleteOrder\\DeleteOrderQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Application\\Features\\Orders\\Commands\\DeleteOrder\\DeleteOrderQueryHandler.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\Orders\\Commands\\DeleteOrder\\DeleteOrderQueryHandler.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Application\\Features\\Orders\\Commands\\DeleteOrder\\DeleteOrderQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:10:25.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GetAllCarriersQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\Carriers\\Queries\\GetAllCarriers\\GetAllCarriersQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Application\\Features\\Carriers\\Queries\\GetAllCarriers\\GetAllCarriersQueryHandler.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\Carriers\\Queries\\GetAllCarriers\\GetAllCarriersQueryHandler.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Application\\Features\\Carriers\\Queries\\GetAllCarriers\\GetAllCarriersQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:01:11.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CreateOrderQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\Orders\\Commands\\CreateOrder\\CreateOrderQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Application\\Features\\Orders\\Commands\\CreateOrder\\CreateOrderQueryHandler.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\Orders\\Commands\\CreateOrder\\CreateOrderQueryHandler.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Application\\Features\\Orders\\Commands\\CreateOrder\\CreateOrderQueryHandler.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAAEUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:03:22.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DeleteCarrierQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\DeleteCarrier\\DeleteCarrierQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\DeleteCarrier\\DeleteCarrierQueryHandler.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\DeleteCarrier\\DeleteCarrierQueryHandler.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\DeleteCarrier\\DeleteCarrierQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:42:01.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DeleteCarrierConfigurationQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\CarrierConfigurations\\Commands\\DeleteCarrierConfiguration\\DeleteCarrierConfigurationQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Application\\Features\\CarrierConfigurations\\Commands\\DeleteCarrierConfiguration\\DeleteCarrierConfigurationQueryHandler.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\CarrierConfigurations\\Commands\\DeleteCarrierConfiguration\\DeleteCarrierConfigurationQueryHandler.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Application\\Features\\CarrierConfigurations\\Commands\\DeleteCarrierConfiguration\\DeleteCarrierConfigurationQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T21:01:28.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UpdateCarrierQueryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\UpdateCarrier\\UpdateCarrierQueryResponse.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\UpdateCarrier\\UpdateCarrierQueryResponse.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\UpdateCarrier\\UpdateCarrierQueryResponse.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\UpdateCarrier\\UpdateCarrierQueryResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:01:04.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UpdateCarrierQueryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\UpdateCarrier\\UpdateCarrierQueryRequest.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\UpdateCarrier\\UpdateCarrierQueryRequest.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\UpdateCarrier\\UpdateCarrierQueryRequest.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\UpdateCarrier\\UpdateCarrierQueryRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:01:04.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GetAllCarrierConfigurationsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\CarrierConfigurations\\Queries\\GetAllCarrierConfigurations\\GetAllCarrierConfigurationsQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Application\\Features\\CarrierConfigurations\\Queries\\GetAllCarrierConfigurations\\GetAllCarrierConfigurationsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\CarrierConfigurations\\Queries\\GetAllCarrierConfigurations\\GetAllCarrierConfigurationsQueryHandler.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Application\\Features\\CarrierConfigurations\\Queries\\GetAllCarrierConfigurations\\GetAllCarrierConfigurationsQueryHandler.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAADIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:35:13.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UpdateCarrierConfigurationQueryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\CarrierConfigurations\\Commands\\UpdateCarrierConfiguration\\UpdateCarrierConfigurationQueryResponse.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Application\\Features\\CarrierConfigurations\\Commands\\UpdateCarrierConfiguration\\UpdateCarrierConfigurationQueryResponse.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\CarrierConfigurations\\Commands\\UpdateCarrierConfiguration\\UpdateCarrierConfigurationQueryResponse.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Application\\Features\\CarrierConfigurations\\Commands\\UpdateCarrierConfiguration\\UpdateCarrierConfigurationQueryResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:00:56.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UpdateCarrierConfigurationQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\CarrierConfigurations\\Commands\\UpdateCarrierConfiguration\\UpdateCarrierConfigurationQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Application\\Features\\CarrierConfigurations\\Commands\\UpdateCarrierConfiguration\\UpdateCarrierConfigurationQueryHandler.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\CarrierConfigurations\\Commands\\UpdateCarrierConfiguration\\UpdateCarrierConfigurationQueryHandler.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Application\\Features\\CarrierConfigurations\\Commands\\UpdateCarrierConfiguration\\UpdateCarrierConfigurationQueryHandler.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:56:05.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UpdateCarrierQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\UpdateCarrier\\UpdateCarrierQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\UpdateCarrier\\UpdateCarrierQueryHandler.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\UpdateCarrier\\UpdateCarrierQueryHandler.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\UpdateCarrier\\UpdateCarrierQueryHandler.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:54:23.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DeleteCarrierQueryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\DeleteCarrier\\DeleteCarrierQueryRequest.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\DeleteCarrier\\DeleteCarrierQueryRequest.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\DeleteCarrier\\DeleteCarrierQueryRequest.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\DeleteCarrier\\DeleteCarrierQueryRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:54:20.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UpdateCarrierConfigurationQueryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\CarrierConfigurations\\Commands\\UpdateCarrierConfiguration\\UpdateCarrierConfigurationQueryRequest.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Application\\Features\\CarrierConfigurations\\Commands\\UpdateCarrierConfiguration\\UpdateCarrierConfigurationQueryRequest.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\CarrierConfigurations\\Commands\\UpdateCarrierConfiguration\\UpdateCarrierConfigurationQueryRequest.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Application\\Features\\CarrierConfigurations\\Commands\\UpdateCarrierConfiguration\\UpdateCarrierConfigurationQueryRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:35:07.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DeleteCarrierQueryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\DeleteCarrier\\DeleteCarrierQueryResponse.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\DeleteCarrier\\DeleteCarrierQueryResponse.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\DeleteCarrier\\DeleteCarrierQueryResponse.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\DeleteCarrier\\DeleteCarrierQueryResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:54:19.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CreateCarrierQueryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\CreateCarrier\\CreateCarrierQueryResponse.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\CreateCarrier\\CreateCarrierQueryResponse.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\CreateCarrier\\CreateCarrierQueryResponse.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\CreateCarrier\\CreateCarrierQueryResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:54:15.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CreateCarrierQueryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\CreateCarrier\\CreateCarrierQueryRequest.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\CreateCarrier\\CreateCarrierQueryRequest.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\CreateCarrier\\CreateCarrierQueryRequest.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\CreateCarrier\\CreateCarrierQueryRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:54:14.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CreateCarrierQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\CreateCarrier\\CreateCarrierQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\CreateCarrier\\CreateCarrierQueryHandler.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\CreateCarrier\\CreateCarrierQueryHandler.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Application\\Features\\Carriers\\Commands\\CreateCarrier\\CreateCarrierQueryHandler.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:41:58.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CreateCarrierConfigurationQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\CarrierConfigurations\\Commands\\CreateCarrierConfiguration\\CreateCarrierConfigurationQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Application\\Features\\CarrierConfigurations\\Commands\\CreateCarrierConfiguration\\CreateCarrierConfigurationQueryHandler.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\CarrierConfigurations\\Commands\\CreateCarrierConfiguration\\CreateCarrierConfigurationQueryHandler.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Application\\Features\\CarrierConfigurations\\Commands\\CreateCarrierConfiguration\\CreateCarrierConfigurationQueryHandler.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAEoAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T21:00:21.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IWriteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Abstractions\\IWriteRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Application\\Abstractions\\IWriteRepository.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Abstractions\\IWriteRepository.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Application\\Abstractions\\IWriteRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T21:06:01.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CreateCarrierConfigurationQueryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\CarrierConfigurations\\Commands\\CreateCarrierConfiguration\\CreateCarrierConfigurationQueryResponse.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Application\\Features\\CarrierConfigurations\\Commands\\CreateCarrierConfiguration\\CreateCarrierConfigurationQueryResponse.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Features\\CarrierConfigurations\\Commands\\CreateCarrierConfiguration\\CreateCarrierConfigurationQueryResponse.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Application\\Features\\CarrierConfigurations\\Commands\\CreateCarrierConfiguration\\CreateCarrierConfigurationQueryResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T21:01:25.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Application\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\ServiceRegistration.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Application\\ServiceRegistration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T21:06:10.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Domain\\Entities\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Domain\\Entities\\Common\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Domain\\Entities\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Domain\\Entities\\Common\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T21:06:14.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CalculateCostDto.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Dtos\\CalculateCostDto.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Application\\Dtos\\CalculateCostDto.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Dtos\\CalculateCostDto.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Application\\Dtos\\CalculateCostDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T21:06:04.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "BaseResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Dtos\\BaseResponseDto.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Application\\Dtos\\BaseResponseDto.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Dtos\\BaseResponseDto.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Application\\Dtos\\BaseResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T21:06:04.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Abstractions\\IRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Application\\Abstractions\\IRepository.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Abstractions\\IRepository.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Application\\Abstractions\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T21:06:00.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IReadRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Abstractions\\IReadRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Application\\Abstractions\\IReadRepository.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Abstractions\\IReadRepository.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Application\\Abstractions\\IReadRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T21:05:59.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IOrderWriteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Abstractions\\Order\\IOrderWriteRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Application\\Abstractions\\Order\\IOrderWriteRepository.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Abstractions\\Order\\IOrderWriteRepository.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Application\\Abstractions\\Order\\IOrderWriteRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T21:05:58.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IOrderReadRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Abstractions\\Order\\IOrderReadRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Application\\Abstractions\\Order\\IOrderReadRepository.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Abstractions\\Order\\IOrderReadRepository.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Application\\Abstractions\\Order\\IOrderReadRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T21:05:57.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ICarrierConfigurationWriteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Abstractions\\CarrierConfiguration\\ICarrierConfigurationWriteRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Application\\Abstractions\\CarrierConfiguration\\ICarrierConfigurationWriteRepository.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Abstractions\\CarrierConfiguration\\ICarrierConfigurationWriteRepository.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Application\\Abstractions\\CarrierConfiguration\\ICarrierConfigurationWriteRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T21:05:56.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ICarrierConfigurationReadRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Abstractions\\CarrierConfiguration\\ICarrierConfigurationReadRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Application\\Abstractions\\CarrierConfiguration\\ICarrierConfigurationReadRepository.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Abstractions\\CarrierConfiguration\\ICarrierConfigurationReadRepository.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Application\\Abstractions\\CarrierConfiguration\\ICarrierConfigurationReadRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T21:05:55.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ICarrierWriteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Abstractions\\Carrier\\ICarrierWriteRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Application\\Abstractions\\Carrier\\ICarrierWriteRepository.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Abstractions\\Carrier\\ICarrierWriteRepository.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Application\\Abstractions\\Carrier\\ICarrierWriteRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T21:05:53.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ICarrierReadRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Abstractions\\Carrier\\ICarrierReadRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Application\\Abstractions\\Carrier\\ICarrierReadRepository.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Application\\Abstractions\\Carrier\\ICarrierReadRepository.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Application\\Abstractions\\Carrier\\ICarrierReadRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T21:05:52.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "CarrierConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Domain\\Entities\\CarrierConfiguration.cs",
+              "RelativeDocumentMoniker": "Core\\Enoca_Challenge.Domain\\Entities\\CarrierConfiguration.cs",
+              "ToolTip": "C:\\Users\\hudan\\OneDrive\\Masa\u00FCst\u00FC\\enoca .net challenge\\enoca .net challenge\\Enoca_Challenge\\Core\\Enoca_Challenge.Domain\\Entities\\CarrierConfiguration.cs",
+              "RelativeToolTip": "Core\\Enoca_Challenge.Domain\\Entities\\CarrierConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T20:36:32.586Z"
             }
           ]
         }

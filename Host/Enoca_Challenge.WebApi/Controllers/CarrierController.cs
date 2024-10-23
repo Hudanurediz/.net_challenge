@@ -2,9 +2,7 @@
 using Enoca_Challenge.Application.Features.Carriers.Commands.DeleteCarrier;
 using Enoca_Challenge.Application.Features.Carriers.Commands.UpdateCarrier;
 using Enoca_Challenge.Application.Features.Carriers.Queries.GetAllCarriers;
-using Enoca_Challenge.Application.Features.Orders.Commands.CreateOrder;
 using MediatR;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Enoca_Challenge.WebApi.Controllers

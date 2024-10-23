@@ -1,4 +1,6 @@
-﻿using Enoca_Challenge.Application.Abstractions;
+﻿using Azure.Core;
+using Enoca_Challenge.Application.Abstractions;
+using Enoca_Challenge.Application.Dtos;
 using Enoca_Challenge.Domain.Entities;
 using MediatR;
 
@@ -20,15 +22,11 @@ namespace Enoca_Challenge.Application.Features.Orders.Commands.CreateOrder
             try
             {
 
-                var result = await _orderWriteRepository.CalculateCarrierCost(request.OrderDesi);
-                var order = new Order(
-                    request.OrderDesi,
-                    DateTime.UtcNow,
-                    result.OrderCarrierCost,
-                    result.CarrierId
-                );
+                var result = await CalculateCarrierCost(request.OrderDesi);
+                var order = CreateOrder(result,request);
 
-                var newOrder = await _orderWriteRepository.AddAsync(order);
+                var newOrder = await AddOrder(order);
+
                 if (newOrder != null)
                 {
                     return new CreateOrderQueryResponse
@@ -45,6 +43,27 @@ namespace Enoca_Challenge.Application.Features.Orders.Commands.CreateOrder
             {
                 throw new Exception("Sipariş oluşturulurken beklenmeyen bir hata oluştu.", ex);
             }
+        }
+
+        private async Task<CalculateCostDto> CalculateCarrierCost(int desi)
+        {
+            return await _orderWriteRepository.CalculateCarrierCost(desi);
+        }
+
+        private Order CreateOrder(CalculateCostDto calculateCostDto, CreateOrderQueryRequest request)
+        {
+            var order = new Order(
+                    request.OrderDesi,
+                    DateTime.UtcNow,
+                    calculateCostDto.OrderCarrierCost,
+                    calculateCostDto.CarrierId
+                );
+            return order;
+        }
+
+        private async Task<Order> AddOrder(Order order)
+        {
+            return await _orderWriteRepository.AddAsync(order);
         }
     }
 }

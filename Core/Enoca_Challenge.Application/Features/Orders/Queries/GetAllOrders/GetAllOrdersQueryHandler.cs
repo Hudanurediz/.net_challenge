@@ -17,7 +17,7 @@ namespace Enoca_Challenge.Application.Features.Orders.Queries.GetAllOrders
         {
             try
             {
-                var orders = await _orderReadRepository.GetAllAsync();
+                var orders = await GetAllOrders();
 
                 if (orders == null || !orders.Any())
                 {
@@ -40,6 +40,11 @@ namespace Enoca_Challenge.Application.Features.Orders.Queries.GetAllOrders
             {
                 throw new Exception("Beklenmeyen bir hata oluştu.", ex);
             }
+        }
+
+        private async Task<List<Order>> GetAllOrders()
+        {
+            return (await _orderReadRepository.GetAllAsync()).ToList();
         }
     }
 }

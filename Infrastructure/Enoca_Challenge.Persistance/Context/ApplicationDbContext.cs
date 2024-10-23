@@ -26,11 +26,15 @@ namespace Enoca_Challenge.Persistance.Context
             {
                 modelBuilder.Entity<CarrierConfiguration>()
                   .Property(c => c.CarrierCost)
-                  .HasColumnType("decimal(18, 2)"); 
+                  .HasColumnType("decimal(18, 2)");
 
                 modelBuilder.Entity<Order>()
                     .Property(o => o.OrderCarrierCost)
                     .HasColumnType("decimal(18, 2)");
+
+                modelBuilder.Entity<CarrierReport>()
+                   .Property(cr => cr.CarrierCost)
+                   .HasColumnType("decimal(18,2)");
 
                 entity.HasKey(c => c.Id);
 
@@ -41,6 +45,8 @@ namespace Enoca_Challenge.Persistance.Context
                 entity.HasMany(c => c.Orders)
                       .WithOne(o => o.Carrier)
                       .OnDelete(DeleteBehavior.Restrict);
+
+
             });
         }
 

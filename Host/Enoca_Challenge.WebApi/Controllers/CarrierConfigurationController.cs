@@ -49,7 +49,5 @@ namespace Enoca_Challenge.WebApi.Controllers
             return Ok(response);
         }
 
-
-
     }
 }

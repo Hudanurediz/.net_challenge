@@ -17,7 +17,7 @@ namespace Enoca_Challenge.Application.Features.CarrierConfigurations.Queries.Get
         {
             try
             {
-                var carrierConfigurations = await _carrierConfigurationReadRepository.GetAllAsync();
+                var carrierConfigurations = await GetAllCarrierConfiguration();
 
                 if (carrierConfigurations == null || !carrierConfigurations.Any())
                 {
@@ -41,5 +41,11 @@ namespace Enoca_Challenge.Application.Features.CarrierConfigurations.Queries.Get
                 throw new Exception("Beklenmedik bir hata oluştu.", ex);
             }
         }
+
+        public async Task<List<CarrierConfiguration>> GetAllCarrierConfiguration()
+        {
+            return (await _carrierConfigurationReadRepository.GetAllAsync()).ToList();
+        }
+
     }
 }
